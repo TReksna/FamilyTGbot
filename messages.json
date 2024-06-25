@@ -1,0 +1,11 @@
+{
+  "start_registration": "Čau! Vispirms piereģistrēsim tavu Telegram kontu",
+  "registration_success": {
+    "text": "Paldies! {name} tava reģistrācija ir veiksmīga",
+    "video": "VideoMateriāli/test_vid.mp4"
+  },
+  "log_expense_start": "Reģistrē jaunus izdevumus - lūdzu norādi maksātāju",
+  "log_expense_amount_prompt": "Norādi naudas summu EUR, ko {name} samaksāja",
+  "log_expense_purpose_prompt": "Par ko {name} iztērēja €{amount}? Norādi maksājuma mērķi!",
+  "log_expense_success": "Paldies, €{amount} izdevums {purpose} ko apmaksāja {name} veiksmīgi saglabāts\nApskatīt visus izdevumus: [šeit](https://docs.google.com/spreadsheets/d/1cjaKkhewvx9tjb_-L_8pvScyANi9sTNUKzbxLfELxs8/edit?usp=sharing)"
+}
