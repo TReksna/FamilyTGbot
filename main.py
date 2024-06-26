@@ -1,10 +1,9 @@
 import os
 from dotenv import load_dotenv
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, \
-    ContextTypes, ConversationHandler
+from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ConversationHandler
 import registration
 import finances
+import photo_uploads
 
 # Load environment variables from .env file
 load_dotenv()
@@ -28,6 +27,10 @@ if __name__ == '__main__':
         fallbacks=[CommandHandler('cancel', finances.cancel)],
     )
     application.add_handler(conv_handler)
+
+    # Photo Upload Handlers
+    application.add_handler(MessageHandler(filters.PHOTO, photo_uploads.handle_photo))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, photo_uploads.handle_photo_name))
 
     # Start the bot
     application.run_polling()
