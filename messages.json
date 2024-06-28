@@ -10,5 +10,12 @@
   "log_expense_success": "Paldies, €{amount} izdevums {purpose} ko apmaksāja {name} veiksmīgi saglabāts\nApskatīt visus izdevumus: [šeit](https://docs.google.com/spreadsheets/d/1cjaKkhewvx9tjb_-L_8pvScyANi9sTNUKzbxLfELxs8/edit?usp=sharing)",
   "photo_prompt": "Ar kādu nosaukumu tu vēlies saglabāt šo bildi?",
   "photo_uploaded_success": "Bildīte saglabāta ar nosaukumu {name}. Skatīt to šeit: {link}",
-  "cancel_message": "Operācija atcelta."
+  "cancel_message": "Operācija atcelta.",
+  "checkin_prompt": "Pienācis laiks šodien iečekoties",
+  "start_questions_button": "Sākt atbildēt uz jautājumiem",
+  "thank_you_message": "Paldies par tavām atbildēm, šodienas iečekošanās ir pabeigta. Iečekosimies atkal rīt, lai Tev lieliska diena",
+  "rating_prompt": "{question}",
+  "followup_prompt": "Lūdzu, atbildi uz šo jautājumu: {question}",
+  "next_question_prompt": "Tava atbilde uz iepriekšējo jautājumu saglabāta! Turpinam tālāk:\n",
+  "question_format": "{number}. Jautājums no 4: {question}"
 }

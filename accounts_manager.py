@@ -1,6 +1,6 @@
 import json
 
-ACCOUNTS_FILE = 'tg_accounrs.json'
+ACCOUNTS_FILE = 'tg_accounts.json'
 
 def load_accounts():
     with open(ACCOUNTS_FILE, 'r', encoding='utf-8') as file:
